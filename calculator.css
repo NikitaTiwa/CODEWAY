@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #616060; 
+}
+#calculator{
+    border: 3px solid #2c2b2b;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: #2c2b2b 5px 5px;
+    width:350px;
+    height: 550px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(rgb(73, 73, 74),rgb(35, 35, 37));
+   
+}
+#display{
+    margin: 20px;
+    width: 90%;
+    height: 20%;
+    border-radius: 8px;
+    font-size: 40px;
+    color: #b1aeae;
+    background-color: #363636;
+    box-shadow: #373535 3px 3px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.button-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-top: 20px;
+}
+.button{
+   font-size: 40px;
+   margin:8px;
+   height: 60px;
+   width: 70px;
+   border-radius: 50%;
+   background-color: #989595;
+   border: #2c2b2b;
+   box-shadow: #2c2b2b 3px 3px;
+   font-family: "VT323", monospace;
+   font-weight: 400;
+   font-style: normal;
+
+}
+.button:hover{
+    background-color: #4c4a4a;
+    border: 3px solid #2c2b2b;
+}
+#clear{
+    background-color: blue;
+    color: azure;
+}
+#delete{
+    background-color: red;
+    color: azure;
+}
